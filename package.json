@@ -1,0 +1,22 @@
+{
+  "name": "d3-npm-example",
+  "version": "1.0.0",
+  "description": "Intial setup for De",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samshah007/d3-example.git"
+  },
+  "keywords": [
+    "Sam"
+  ],
+  "author": "Shyamal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samshah007/d3-example/issues"
+  },
+  "homepage": "https://github.com/samshah007/d3-example#readme"
+}
