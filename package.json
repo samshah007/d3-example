@@ -4,7 +4,7 @@
   "description": "Intial setup for De",
   "main": "script.js",
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "webpack",
     "start": "webpack-dev-server"
   },
   "repository": {
@@ -24,7 +24,8 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
     "babel-preset-es2015": "^6.24.1",
-    "d3": "^6.2.0"
+    "d3": "^6.2.0",
+    "d3-require": "^1.2.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
