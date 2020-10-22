@@ -4,8 +4,8 @@
   "description": "Intial setup for De",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,17 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
     "babel-preset-es2015": "^6.24.1",
-    "webpack": "^5.1.3",
-    "webpack-dev-server": "^3.11.0"
+    "d3": "^6.2.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "^3.8.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^2.11.5",
+    "webpack-merge": "^5.2.0"
   }
 }
