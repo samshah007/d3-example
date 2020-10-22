@@ -4,7 +4,8 @@
   "description": "Intial setup for De",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "dependencies": {
     "webpack": "^5.1.3",
     "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }
